@@ -68,7 +68,7 @@ I like combining these skills — building interactive web experiences, small ga
 - 🖼️ **[Gallery Informatika](https://github.com/Azka3/gallery-informatika)** — class gallery website for Informatika 2024, Universitas Al-Ghifari, featuring member profiles, activity highlights, and campus info
   🔗 [Live Demo](https://gallery-informatika.vercel.app/)
 - 🔗 [website-bootcamp](https://github.com/Azka3/website-bootcamp) — web project built with HTML
-- Dan ini adalah [portfolio](https://zk-portfolio-seven.vercel.app/) ku
+- Dan ini adalah 🔗[portfolio](https://zk-portfolio-seven.vercel.app/) ku
 
 ---
 
