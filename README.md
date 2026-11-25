@@ -46,9 +46,11 @@ const azka = {
 ## 🛠️ Tech Stack
 
 <div align="center">
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=html,css,php,laravel,unity,godot,kotlin,androidstudio,blender&perline=9" alt="HTML, CSS, PHP, Laravel, Unity, Godot, Kotlin, Android Studio, Blender" />
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=html,css,php,laravel,unity,godot,kotlin,androidstudio,blender&perline=9&theme=dark">
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=html,css,php,laravel,unity,godot,kotlin,androidstudio,blender&perline=9&theme=light">
+  <img src="https://skillicons.dev/icons?i=html,css,php,laravel,unity,godot,kotlin,androidstudio,blender&perline=9&theme=dark" alt="HTML, CSS, PHP, Laravel, Unity, Godot, Kotlin, Android Studio, Blender" />
+</picture>
 </div>
 
 <div align="center">
@@ -57,18 +59,34 @@ const azka = {
 
 ## 📊 GitHub Stats
 
-<div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Azka3&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="Azka3's GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Azka3&layout=compact&theme=tokyonight&hide_border=true" alt="Most used languages" />
-</div>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Azka3&show_icons=true&rank_icon=github&custom_title=Azka%27s%20GitHub%20Stats&border_radius=14&bg_color=0f172a&border_color=30363d&title_color=22d3ee&text_color=cbd5e1&icon_color=a78bfa&ring_color=22d3ee">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Azka3&show_icons=true&rank_icon=github&custom_title=Azka%27s%20GitHub%20Stats&border_radius=14&bg_color=f8fafc&border_color=d0d7de&title_color=7c3aed&text_color=334155&icon_color=0891b2&ring_color=7c3aed">
+    <img height="175" src="https://github-readme-stats.vercel.app/api?username=Azka3&show_icons=true&rank_icon=github&custom_title=Azka%27s%20GitHub%20Stats&border_radius=14&bg_color=f8fafc&border_color=d0d7de&title_color=7c3aed&text_color=334155&icon_color=0891b2&ring_color=7c3aed" alt="Azka3's GitHub stats" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Azka3&layout=compact&custom_title=Most%20Used%20Languages&border_radius=14&bg_color=0f172a&border_color=30363d&title_color=22d3ee&text_color=cbd5e1">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Azka3&layout=compact&custom_title=Most%20Used%20Languages&border_radius=14&bg_color=f8fafc&border_color=d0d7de&title_color=7c3aed&text_color=334155">
+    <img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Azka3&layout=compact&custom_title=Most%20Used%20Languages&border_radius=14&bg_color=f8fafc&border_color=d0d7de&title_color=7c3aed&text_color=334155" alt="Most used languages" />
+  </picture>
+</p>
 
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=Azka3&theme=tokyonight&hide_border=true" alt="Azka3's streak" />
-</div>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Azka3&border_radius=14&background=0f172a&border=30363d&stroke=30363d&ring=22d3ee&fire=fb923c&currStreakNum=f8fafc&sideNums=f8fafc&currStreakLabel=22d3ee&sideLabels=cbd5e1&dates=94a3b8">
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=Azka3&border_radius=14&background=f8fafc&border=d0d7de&stroke=d0d7de&ring=7c3aed&fire=f97316&currStreakNum=0f172a&sideNums=0f172a&currStreakLabel=7c3aed&sideLabels=475569&dates=64748b">
+    <img height="150" src="https://streak-stats.demolab.com?user=Azka3&border_radius=14&background=f8fafc&border=d0d7de&stroke=d0d7de&ring=7c3aed&fire=f97316&currStreakNum=0f172a&sideNums=0f172a&currStreakLabel=7c3aed&sideLabels=475569&dates=64748b" alt="Azka3's streak" />
+  </picture>
+</p>
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Azka3&theme=tokyo-night&hide_border=true&area=true" alt="Contribution activity graph" width="100%" />
-</div>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Azka3&custom_title=Contribution%20Graph&area=true&hide_border=true&radius=14&bg_color=0f172a&color=22d3ee&line=a78bfa&point=f8fafc&area_color=a78bfa&title_color=22d3ee">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Azka3&custom_title=Contribution%20Graph&area=true&hide_border=true&radius=14&bg_color=f8fafc&color=7c3aed&line=7c3aed&point=0891b2&area_color=7c3aed&title_color=7c3aed">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Azka3&custom_title=Contribution%20Graph&area=true&hide_border=true&radius=14&bg_color=f8fafc&color=7c3aed&line=7c3aed&point=0891b2&area_color=7c3aed&title_color=7c3aed" alt="Contribution activity graph" width="100%" />
+  </picture>
+</p>
 
 <div align="center">
 <img src="assets/divider.svg" width="100%" alt="" />
@@ -76,12 +94,14 @@ const azka = {
 
 ## 📌 Featured Projects
 
-<div align="center">
-  <a href="https://github.com/Azka3/gallery-informatika"><img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=Azka3&repo=gallery-informatika&theme=tokyonight&hide_border=true" alt="gallery-informatika" /></a>
-  <a href="https://github.com/Azka3/zk-portfolio"><img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=Azka3&repo=zk-portfolio&theme=tokyonight&hide_border=true" alt="zk-portfolio" /></a>
-  <a href="https://github.com/Azka3/jadwal-produktif"><img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=Azka3&repo=jadwal-produktif&theme=tokyonight&hide_border=true" alt="jadwal-produktif" /></a>
-  <a href="https://github.com/Azka3/headline-maker"><img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=Azka3&repo=headline-maker&theme=tokyonight&hide_border=true" alt="headline-maker" /></a>
-</div>
+<p align="center">
+  <a href="https://github.com/Azka3/gallery-informatika"><img width="48%" src="assets/projects/gallery-informatika.svg" alt="gallery-informatika" /></a>
+  <a href="https://github.com/Azka3/zk-portfolio"><img width="48%" src="assets/projects/zk-portfolio.svg" alt="zk-portfolio" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/Azka3/jadwal-produktif"><img width="48%" src="assets/projects/jadwal-produktif.svg" alt="jadwal-produktif" /></a>
+  <a href="https://github.com/Azka3/headline-maker"><img width="48%" src="assets/projects/headline-maker.svg" alt="headline-maker" /></a>
+</p>
 
 <p align="center">
   🖼️ <a href="https://gallery-informatika.vercel.app/">Gallery Informatika — live demo</a>
