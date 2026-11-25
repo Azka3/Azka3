@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="250" viewBox="0 0 1000 250" role="img" aria-label="Focus areas: Web Development, Game Development, Mobile Development, 3D Art">
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e1b4b"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="gWeb" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#3b82f6"/></linearGradient>
+    <linearGradient id="gGame" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#a78bfa"/><stop offset="1" stop-color="#6366f1"/></linearGradient>
+    <linearGradient id="gMobile" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#34d399"/><stop offset="1" stop-color="#10b981"/></linearGradient>
+    <linearGradient id="gArt" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fb923c"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
+    <style>
+      text { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+      .title { font-size: 19px; font-weight: 700; fill: #f8fafc; }
+      .tech  { font-size: 14px; fill: #cbd5e1; }
+      .note  { font-size: 13px; fill: #94a3b8; }
+      .float { animation: float 4.5s ease-in-out infinite; }
+      .f2 { animation-delay: .6s; }
+      .f3 { animation-delay: 1.2s; }
+      .f4 { animation-delay: 1.8s; }
+      @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+    </style>
+  </defs>
+
+  <!-- Web -->
+  <g class="float">
+    <rect x="10" y="20" width="230" height="200" rx="18" fill="url(#card)" stroke="#22d3ee" stroke-opacity="0.5" stroke-width="1.5"/>
+    <circle cx="125" cy="72" r="30" fill="url(#gWeb)"/>
+    <text x="125" y="80" text-anchor="middle" font-family="'Courier New', monospace" font-size="22" font-weight="700" fill="#0f172a">&lt;/&gt;</text>
+    <text class="title" x="125" y="133" text-anchor="middle">Web Development</text>
+    <text class="tech" x="125" y="161" text-anchor="middle">HTML · CSS · PHP · Laravel</text>
+    <text class="note" x="125" y="190" text-anchor="middle">Deepening my Laravel skills</text>
+  </g>
+
+  <!-- Game -->
+  <g class="float f2">
+    <rect x="260" y="20" width="230" height="200" rx="18" fill="url(#card)" stroke="#a78bfa" stroke-opacity="0.5" stroke-width="1.5"/>
+    <circle cx="375" cy="72" r="30" fill="url(#gGame)"/>
+    <g fill="#0f172a">
+      <rect x="355" y="62" width="40" height="22" rx="10"/>
+    </g>
+    <g fill="#a78bfa">
+      <rect x="362" y="70" width="10" height="3"/>
+      <rect x="365.5" y="66.5" width="3" height="10"/>
+      <circle cx="383" cy="70" r="2.4"/>
+      <circle cx="389" cy="75" r="2.4"/>
+    </g>
+    <text class="title" x="375" y="133" text-anchor="middle">Game Development</text>
+    <text class="tech" x="375" y="161" text-anchor="middle">Unity  →  Godot</text>
+    <text class="note" x="375" y="190" text-anchor="middle">Now focused on Godot</text>
+  </g>
+
+  <!-- Mobile -->
+  <g class="float f3">
+    <rect x="510" y="20" width="230" height="200" rx="18" fill="url(#card)" stroke="#34d399" stroke-opacity="0.5" stroke-width="1.5"/>
+    <circle cx="625" cy="72" r="30" fill="url(#gMobile)"/>
+    <rect x="613" y="55" width="24" height="34" rx="5" fill="#0f172a"/>
+    <rect x="616" y="59" width="18" height="24" rx="2" fill="#34d399"/>
+    <circle cx="625" cy="86" r="1.6" fill="#34d399"/>
+    <text class="title" x="625" y="133" text-anchor="middle">Mobile Development</text>
+    <text class="tech" x="625" y="161" text-anchor="middle">Android Studio · Kotlin</text>
+    <text class="note" x="625" y="190" text-anchor="middle">Building Android apps</text>
+  </g>
+
+  <!-- 3D -->
+  <g class="float f4">
+    <rect x="760" y="20" width="230" height="200" rx="18" fill="url(#card)" stroke="#fb923c" stroke-opacity="0.5" stroke-width="1.5"/>
+    <circle cx="875" cy="72" r="30" fill="url(#gArt)"/>
+    <g stroke="#0f172a" stroke-width="2.4" stroke-linejoin="round" fill="none">
+      <polygon points="875,54 891,63 891,81 875,90 859,81 859,63"/>
+      <polyline points="859,63 875,72 891,63"/>
+      <line x1="875" y1="72" x2="875" y2="90"/>
+    </g>
+    <text class="title" x="875" y="133" text-anchor="middle">3D Art</text>
+    <text class="tech" x="875" y="161" text-anchor="middle">Blender</text>
+    <text class="note" x="875" y="190" text-anchor="middle">Modeling &amp; assets</text>
+  </g>
+</svg>

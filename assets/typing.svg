@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="56" viewBox="0 0 800 56" role="img" aria-label="Building web experiences with Laravel. Crafting games with Godot. Shipping Android apps. Sculpting 3D worlds in Blender.">
+  <style>
+    .line {
+      font-family: 'Courier New', Consolas, 'DejaVu Sans Mono', monospace;
+      font-size: 22px;
+      font-weight: 700;
+      fill: #8b5cf6;
+      animation: type 12s linear infinite both;
+    }
+    .p { fill: #06b6d4; }
+    .l2, .l3, .l4 { opacity: 0; }
+    .l2 { animation-delay: 3s; }
+    .l3 { animation-delay: 6s; }
+    .l4 { animation-delay: 9s; }
+    @keyframes type {
+      0%     { opacity: 0; clip-path: inset(0 100% 0 0); }
+      0.1%   { opacity: 1; clip-path: inset(0 100% 0 0); }
+      10%    { opacity: 1; clip-path: inset(0 0 0 0); }
+      22%    { opacity: 1; clip-path: inset(0 0 0 0); }
+      23%    { opacity: 0; clip-path: inset(0 0 0 0); }
+      100%   { opacity: 0; clip-path: inset(0 0 0 0); }
+    }
+    .cursor { fill: #06b6d4; animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+  <text class="line" x="400" y="36" text-anchor="middle"><tspan class="p">&gt; </tspan>Building web experiences with Laravel</text>
+  <text class="line l2" x="400" y="36" text-anchor="middle"><tspan class="p">&gt; </tspan>Crafting games with Godot</text>
+  <text class="line l3" x="400" y="36" text-anchor="middle"><tspan class="p">&gt; </tspan>Shipping Android apps</text>
+  <text class="line l4" x="400" y="36" text-anchor="middle"><tspan class="p">&gt; </tspan>Sculpting 3D worlds in Blender</text>
+</svg>
