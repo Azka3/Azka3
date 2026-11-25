@@ -11,7 +11,7 @@
     <style>
       text { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
       .title { font-size: 19px; font-weight: 700; fill: #f8fafc; }
-      .tech  { font-size: 14px; fill: #cbd5e1; }
+      .tech  { font-size: 12.5px; fill: #cbd5e1; }
       .note  { font-size: 13px; fill: #94a3b8; }
       .float { animation: float 4.5s ease-in-out infinite; }
       .f2 { animation-delay: .6s; }
@@ -27,7 +27,7 @@
     <circle cx="125" cy="72" r="30" fill="url(#gWeb)"/>
     <text x="125" y="80" text-anchor="middle" font-family="'Courier New', monospace" font-size="22" font-weight="700" fill="#0f172a">&lt;/&gt;</text>
     <text class="title" x="125" y="133" text-anchor="middle">Web Development</text>
-    <text class="tech" x="125" y="161" text-anchor="middle">HTML · CSS · PHP · Laravel</text>
+    <text class="tech" x="125" y="161" text-anchor="middle">HTML · CSS · PHP · Laravel · React</text>
     <text class="note" x="125" y="190" text-anchor="middle">Deepening my Laravel skills</text>
   </g>
 
@@ -57,8 +57,8 @@
     <rect x="616" y="59" width="18" height="24" rx="2" fill="#34d399"/>
     <circle cx="625" cy="86" r="1.6" fill="#34d399"/>
     <text class="title" x="625" y="133" text-anchor="middle">Mobile Development</text>
-    <text class="tech" x="625" y="161" text-anchor="middle">Android Studio · Kotlin</text>
-    <text class="note" x="625" y="190" text-anchor="middle">Building Android apps</text>
+    <text class="tech" x="625" y="161" text-anchor="middle">Android Studio · Kotlin · Flutter</text>
+    <text class="note" x="625" y="190" text-anchor="middle">Building mobile apps</text>
   </g>
 
   <!-- 3D -->

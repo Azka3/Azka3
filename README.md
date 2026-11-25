@@ -47,9 +47,9 @@ const azka = {
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=html,css,php,laravel,unity,godot,kotlin,androidstudio,blender&perline=9&theme=dark">
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=html,css,php,laravel,unity,godot,kotlin,androidstudio,blender&perline=9&theme=light">
-  <img src="https://skillicons.dev/icons?i=html,css,php,laravel,unity,godot,kotlin,androidstudio,blender&perline=9&theme=dark" alt="HTML, CSS, PHP, Laravel, Unity, Godot, Kotlin, Android Studio, Blender" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=html%2Ccss%2Cphp%2Claravel%2Creact%2Cunity%2Cgodot%2Ckotlin%2Candroidstudio%2Cflutter%2Cblender&perline=11&theme=dark">
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=html%2Ccss%2Cphp%2Claravel%2Creact%2Cunity%2Cgodot%2Ckotlin%2Candroidstudio%2Cflutter%2Cblender&perline=11&theme=light">
+  <img src="https://skillicons.dev/icons?i=html%2Ccss%2Cphp%2Claravel%2Creact%2Cunity%2Cgodot%2Ckotlin%2Candroidstudio%2Cflutter%2Cblender&perline=11&theme=dark" alt="HTML, CSS, PHP, Laravel, React, Unity, Godot, Kotlin, Android Studio, Flutter, Blender" />
 </picture>
 </div>
 
