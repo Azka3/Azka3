@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="150" viewBox="0 0 480 150" role="img" aria-label="jadwal-produktif: Butuh jadwal produktif terorganisir setiap waktu dan setiap hari? mungkin kamu bisa coba web buatan saya ini!">
+  <defs>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fb923c"/>
+      <stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+    <linearGradient id="shine" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="480" y2="0" spreadMethod="reflect">
+      <stop offset="0" stop-color="#fb923c"/>
+      <stop offset="1" stop-color="#f472b6"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="960 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <clipPath id="rc"><rect x="1" y="1" width="478" height="148" rx="14"/></clipPath>
+    <style>
+      text { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+      .card { fill: #f8fafc; stroke: #d0d7de; }
+      .name { font-size: 18px; font-weight: 700; fill: #0f172a; }
+      .desc { font-size: 13px; fill: #475569; }
+      .lang { font-size: 12.5px; fill: #64748b; }
+      .chip { fill: #e2e8f0; }
+      .view { font-size: 12px; font-weight: 600; fill: #f472b6; }
+      @media (prefers-color-scheme: dark) {
+        .card { fill: #0f172a; stroke: #30363d; }
+        .name { fill: #f8fafc; }
+        .desc { fill: #cbd5e1; }
+        .lang { fill: #94a3b8; }
+        .chip { fill: #1e293b; }
+      }
+    </style>
+  </defs>
+  <rect class="card" x="1" y="1" width="478" height="148" rx="14" stroke-width="1.2"/>
+  <g clip-path="url(#rc)"><rect x="0" y="0" width="480" height="5" fill="url(#shine)"/></g>
+  <!-- repo icon -->
+  <g transform="translate(22 28)" fill="none" stroke="url(#acc)" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M2 3.5A2.5 2.5 0 0 1 4.5 1H15v14H4.5A2.5 2.5 0 0 0 2 17.5z"/>
+    <path d="M2 17.5A2.5 2.5 0 0 0 4.5 20H15v-5"/>
+  </g>
+  <text class="name" x="50" y="44">jadwal-produktif</text>
+  <text class="desc" x="24" y="72">Butuh jadwal produktif terorganisir setiap waktu dan setiap</text>
+  <text class="desc" x="24" y="91">hari? mungkin kamu bisa coba web buatan saya ini!</text>
+  <circle cx="30" cy="132" r="5.5" fill="#e34c26"/>
+  <text class="lang" x="42" y="136.5">HTML</text>
+  <rect class="chip" x="368" y="120" width="94" height="22" rx="11"/>
+  <text class="view" x="415" y="135.5" text-anchor="middle">View repo  &#8599;</text>
+</svg>
